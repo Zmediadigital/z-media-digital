@@ -1,0 +1,30 @@
+.career-header{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.career-header h1{
+    font-size:56px;
+    margin-bottom:25px;
+}
+
+.career-header p{
+    color:#64748b;
+}
+
+.career-content{
+    max-width:800px;
+    margin:auto;
+    margin-bottom:100px;
+}
+
+.career-content h2{
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.career-content p{
+    color:#475569;
+    line-height:1.9;
+    margin-bottom:20px;
+}

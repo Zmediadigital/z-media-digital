@@ -1,0 +1,83 @@
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.page-header{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.page-header h1{
+    font-size:56px;
+    margin-bottom:25px;
+}
+
+.page-header p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.9;
+    color:#64748b;
+}
+
+.mail-info{
+    color:#334155;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.mail-label{
+    color:#0f172a;
+    font-weight:600;
+}
+
+.email-link{
+    color:#334155;
+    text-decoration:none;
+    transition:0.3s;
+    padding-bottom: 20px;
+}
+
+.email-link:hover{
+    color:#2563eb;
+}
+form{
+    max-width:700px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:16px;
+    margin-bottom:20px;
+    border:1px solid #cbd5e1;
+    border-radius:10px;
+    font-family:'Poppins',sans-serif;
+}
+
+textarea{
+    min-height:180px;
+    resize:vertical;
+}
+
+button{
+    background:#0f172a;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .page-header h1{
+        font-size:42px;
+    }
+}

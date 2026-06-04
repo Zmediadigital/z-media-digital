@@ -1,0 +1,117 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.page-header{
+    text-align:center;
+    margin-bottom:100px;
+}
+
+.page-header h1{
+    font-size:56px;
+    font-weight:700;
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.page-header p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.9;
+    color:#64748b;
+}
+
+/* =========================
+   WHO WE ARE
+========================= */
+
+.about-content{
+    margin-bottom:100px;
+}
+
+.about-content h2{
+    font-size:34px;
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.about-content p{
+    max-width:800px;
+    font-size:17px;
+    line-height:1.9;
+    color:#475569;
+    margin-bottom:20px;
+}
+
+/* =========================
+   MISSION
+========================= */
+
+.mission{
+    margin-bottom:100px;
+}
+
+.mission h2{
+    font-size:34px;
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.mission p{
+    max-width:800px;
+    font-size:17px;
+    line-height:1.9;
+    color:#475569;
+}
+
+/* =========================
+   SERVICES LIST
+========================= */
+
+.about-services{
+    margin-bottom:100px;
+}
+
+.about-services h2{
+    font-size:34px;
+    color:#0f172a;
+    margin-bottom:25px;
+}
+
+.about-services ul{
+    list-style:none;
+    padding:0;
+}
+
+.about-services li{
+    background:#f8fafc;
+    border:1px solid #e2e8f0;
+    border-left:5px solid #2563eb;
+    padding:18px 22px;
+    margin-bottom:15px;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.about-services li:hover{
+    transform:translateX(8px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .page-header h1{
+        font-size:42px;
+    }
+
+    .about-content h2,
+    .mission h2,
+    .about-services h2{
+        font-size:28px;
+    }
+
+}

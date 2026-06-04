@@ -1,0 +1,302 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#0f172a;
+    line-height:1.7;
+}
+
+/* INTRO */
+
+.intro{
+    margin-bottom:80px;
+}
+
+.intro p{
+    max-width:700px;
+    color:#475569;
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    border-bottom:1px solid #e2e8f0;
+    position:sticky;
+    top:0;
+    background:#ffffff;
+    z-index:1000;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#334155;
+    font-weight:500;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+/* LOGO */
+
+.brand-mark{
+    display:flex;
+    justify-content:flex-end;
+    padding:0 8%;
+    margin-top:-10px;
+    margin-bottom:-150px;
+}
+.brand-mark img{
+    height:100px;
+    width:auto;
+}
+
+/* MAIN */
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 25px;
+}
+
+/* SERVICES */
+
+.services{
+    margin-bottom:80px;
+}
+
+.services h1{
+    text-align:left;
+    font-size:42px;
+    margin-bottom:35px;
+}
+
+.service-list{
+    list-style:none;
+}
+
+.service-list li{
+    background:#f8fafc;
+    padding:18px 22px;
+    margin-bottom:15px;
+    border-radius:12px;
+    border-left:5px solid #2563eb;
+    transition:0.3s;
+}
+
+.service-list li:hover{
+    transform:translateX(8px);
+}
+
+/* why us */
+
+.why-us{
+    margin-bottom:80px;
+}
+
+.why-us h2{
+    font-size:34px;
+    margin-bottom:25px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.why-card{
+    background:#f8fafc;
+    padding:25px;
+    border-radius:12px;
+    transition:0.3s;
+    border:1px solid #e2e8f0;
+}
+
+.why-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+.why-card h3{
+    margin-bottom:10px;
+}
+
+/* ABOUT */
+
+.about{
+    margin-bottom:80px;
+}
+
+.about h2{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#475569;
+}
+
+/* CONTACT */
+
+.contact{
+    margin-bottom:80px;
+}
+
+.contact h2{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.contact p{
+    color:#2563eb;
+    font-weight:500;
+}
+
+.mail-info{
+    color:#334155;
+    font-size:18px;
+}
+
+.mail-label{
+    color:#0f172a;
+    font-weight:600;
+}
+
+/* CAREER */
+
+.career{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.career-btn{
+    display:inline-block;
+    padding:14px 40px;
+    background:#0f172a;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.career-btn:hover{
+    transform:translateY(-3px);
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    border-top:1px solid #e2e8f0;
+    color:#64748b;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    .services h1{
+        font-size:32px;
+    }
+
+    .about h2,
+    .contact h2{
+        font-size:28px;
+    }
+}
+
+/* HERO */
+
+.hero{
+    min-height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:60px 20px;
+    margin-bottom:80px;
+    background:linear-gradient(
+        135deg,
+        #ffffff,
+        #f8fafc
+    );
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero-content h1{
+    font-size:56px;
+    font-weight:700;
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+.hero-content p{
+    font-size:20px;
+    color:#475569;
+    margin-bottom:35px;
+}
+
+.hero-btn{
+    display:inline-block;
+    padding:14px 32px;
+    background:#0f172a;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.hero-btn:hover{
+    transform:translateY(-3px);
+}
+
+.active{
+    color:#2563eb !important;
+    font-weight:600;
+}
