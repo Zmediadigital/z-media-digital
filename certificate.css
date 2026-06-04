@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f6f8;
+  color: #1a2340;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 20px 80px;
+}
+
+.cert-page {
+  width: 100%;
+  max-width: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ── Brand ── */
+.cert-brand {
+  text-align: center;
+}
+
+.cert-brand h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a2340;
+  letter-spacing: -0.01em;
+}
+
+.cert-brand p {
+  font-size: 0.8rem;
+  color: #7a8499;
+  margin-top: 4px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Verified Badge ── */
+.verified-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 28px 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 4px 24px rgba(26, 35, 64, 0.07);
+}
+
+.check-circle {
+  width: 56px;
+  height: 56px;
+  background: #2563eb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.3);
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.check-circle svg {
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+}
+
+.verified-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a2340;
+  margin-bottom: 6px;
+}
+
+.verified-sub {
+  font-size: 0.82rem;
+  color: #7a8499;
+  line-height: 1.6;
+}
+
+/* ── Certificate Image ── */
+.cert-image-section {
+  width: 100%;
+}
+
+.cert-image-section p {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #7a8499;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.cert-image-section img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 8px 40px rgba(26, 35, 64, 0.1);
+  display: block;
+}
+
+/* ── Footer ── */
+.cert-footer {
+  font-size: 0.75rem;
+  color: #b0b8c9;
+  text-align: center;
+}
+
+.cert-footer a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* ── Animation ── */
+@keyframes popIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+
+@media (max-width: 500px) {
+  body { padding: 40px 16px 60px; }
+  .verified-box { padding: 24px 20px; }
+}
