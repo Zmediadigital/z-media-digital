@@ -56,27 +56,33 @@
     <section class="contact-form-section">
     <h2>Send a Message</h2>
 
-    <form>
+    <form action="https://formspree.io/f/xnjyqkbv" method="POST">
 
-        <input
-            type="text"
-            placeholder="Your Name"
-        >
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+    >
 
-        <input
-            type="email"
-            placeholder="Your Email"
-        >
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+    >
 
-        <textarea
-            placeholder="Your Message"
-        ></textarea>
+    <textarea
+        name="message"
+        placeholder="Your Message"
+        required
+    ></textarea>
 
-        <button type="submit">
-            Send Message
-        </button>
+    <button type="submit">
+        Send Message
+    </button>
 
-    </form>
+</form>
 
 </section>
 
