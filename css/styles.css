@@ -238,6 +238,15 @@ footer{
         gap:15px;
     }
 
+    .hero-content h1{
+    font-size:42px;
+    line-height:1.2;
+   }
+
+    .hero-content p{
+    font-size:18px;
+   }
+
     .services h1{
         font-size:32px;
     }
