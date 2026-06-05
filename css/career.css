@@ -28,3 +28,35 @@
     line-height:1.9;
     margin-bottom:20px;
 }
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .career-header{
+        margin-bottom:48px;
+    }
+
+    .career-header h1{
+        font-size:28px;
+        margin-bottom:14px;
+    }
+
+    .career-header p{
+        font-size:15px;
+    }
+
+    .career-content{
+        margin-bottom:48px;
+    }
+
+    .career-content h2{
+        font-size:22px;
+        margin-bottom:16px;
+    }
+
+    .career-content p{
+        font-size:15px;
+        line-height:1.7;
+    }
+}
