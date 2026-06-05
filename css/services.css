@@ -43,3 +43,38 @@
 .service-card p{
     color:#64748b;
 }
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .page-header{
+        margin-bottom:36px;
+    }
+
+    .page-header h1{
+        font-size:26px;
+        margin-bottom:10px;
+    }
+
+    .page-header p{
+        font-size:15px;
+    }
+
+    .service-cards{
+        grid-template-columns:1fr;
+        gap:16px;
+    }
+
+    .service-card{
+        padding:20px;
+    }
+
+    .service-card h3{
+        font-size:16px;
+    }
+
+    .service-card p{
+        font-size:14px;
+    }
+}
