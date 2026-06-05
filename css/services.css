@@ -20,6 +20,7 @@
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:25px;
+    margin-bottom:60px;
 }
 
 .service-card{
@@ -59,11 +60,13 @@
 
     .page-header p{
         font-size:15px;
+        line-height:1.7;
     }
 
     .service-cards{
         grid-template-columns:1fr;
         gap:16px;
+        margin-bottom:40px;
     }
 
     .service-card{
@@ -76,5 +79,6 @@
 
     .service-card p{
         font-size:14px;
+        line-height:1.6;
     }
 }
